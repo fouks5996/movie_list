@@ -1,0 +1,15 @@
+body{
+   position: relative;
+   margin: 0 auto;
+}
+
+#layer{
+   position: fixed;
+   justify-content: center;
+   align-items: center;
+   display: none;
+   height: 100vh;
+   width: 100vw;
+   background-color: rgba(0, 0, 0, 0.465);
+   z-index: 999;
+}

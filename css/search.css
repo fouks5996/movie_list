@@ -1,0 +1,48 @@
+.form-wrapper{
+   background-color: rgb(126, 55, 213);
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+label{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2rem;
+   text-align: center;
+   font-weight: 900;
+   color: white;
+}
+
+input[type=search]{
+   height: 50px;
+   width: 500px;
+   border: none;
+   border-radius: 30px;
+   padding-left: 30px;
+}
+
+.submit-btn{
+   margin-top: 10px;
+   height: 40px;
+   width: 26%;
+   border-radius: 30px;
+   border: none;
+   color: rgb(126, 55, 213);
+   font-size: 0.9rem;
+   font-weight: 500;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: white;
+   cursor: pointer;
+}
+
+.submit-btn:hover{
+   background-color: rgb(218, 218, 218);
+}

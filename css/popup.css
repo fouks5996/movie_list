@@ -1,0 +1,55 @@
+#popup{
+   position: fixed;
+   display: none;
+   background-color: white;
+   border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   width: fit-content;
+   left: 0; 
+   max-width: 700px;
+   padding: 20px;
+   right: 0; 
+   z-index: 1000;
+   margin-left: auto; 
+   margin-right: auto; 
+   animation-name: deploypopup;
+   animation-duration: 0.4s;
+   }
+
+@keyframes deploypopup {
+   from{
+      transform: scale(0.3);
+   }
+   to{
+      transform: scale(1);
+   }
+}
+
+.popup-content{
+   position: relative;
+   display: flex;
+   gap: 20px;
+}
+
+.popup-content img{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.close-btn{
+   position: absolute;
+   top: -10px;
+   right: 10px;
+   cursor: pointer;
+}
+
+.plot{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pasdenom{
+   padding-right: 30px;
+}

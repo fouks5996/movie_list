@@ -1,0 +1,43 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/popup.css" />
+		<link rel="stylesheet" href="./css/search.css" />
+		<link rel="stylesheet" href="./css/items.css" />
+	</head>
+	<body>
+		<div id="layer">
+			<div id="popup"></div>
+		</div>
+
+		<div class="form-wrapper">
+			<form name="myform" action="">
+				<label for="searchmovie"> Rechercher un film </label>
+				<input
+					type="search"
+					placeholder="choissisez un film"
+					name="movie"
+					id="movie"
+				/>
+				<button
+					class="submit-btn"
+					type="button"
+					name="button"
+					value="Click"
+					onClick="getData(this.form)"
+				>
+					Search
+				</button>
+			</form>
+		</div>
+		<div id="display-data-wrapper">
+			<div id="display-data"></div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

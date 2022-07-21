@@ -25,6 +25,11 @@ const getDataMovie = async () => {
 const displayData = async () => {
 	await getDataMovie();
 	const dataContainer = document.getElementById("display-data");
+
+	dataArray.sort((a, b) => {
+		return a.Year - b.Year;
+	});
+
 	dataContainer.innerHTML = dataArray
 		.map(
 			(value) => `
